@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "REM", sans-serif;
+}
+
+.section-1 {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(./images/pexels-content-pixie-2736499.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  margin: 10px;
+}
+.form-row {
+  margin-top: 30px;
+}
+.form-control {
+  width: 50%;
+  margin: auto;
+}
+.form-control::placeholder {
+  color: lightgray;
+}
+
+.list {
+  overflow: auto;
+  padding: 15px;
+  max-height: 100vh;
+  width: 70%;
+
+  border-radius: 12px;
+  margin: auto;
+}
+.listshow {
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 80px 100px -20px,
+    rgba(69, 54, 169, 0.3) 0px 30px 60px -30px,
+    rgba(63, 151, 239, 0.35) 0px -2px 3px 0px inset;
+}
+
+.list-item {
+  background-color: white;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 48px;
+  margin-top: 0px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.form-check-label {
+  padding-left: 12px;
+  font-size: 1.1rem;
+}
+.form-check-input {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+.delete {
+  text-align: right;
+  border-radius: 12px;
+  font-size: 1rem;
+  margin-right: 2px;
+
+  background-color: rgb(141, 205, 205);
+  padding: 7px;
+  border: none;
+  color: darkslateblue;
+}
